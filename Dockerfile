@@ -9,5 +9,5 @@ ENV REDIS_HOST=redis
 ENTRYPOINT [ "flask" ]
 CMD [ "run", "--host=0.0.0.0" ]
 
-EXPOSE 80
+EXPOSE 5000
 LABEL name="Ricardo Silva" email="ricardolopes18@yahoo.com.br"
